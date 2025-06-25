@@ -77,7 +77,7 @@ const WeatherMain = () => {
                      </div>
                   ))
             ) : (
-               <div>로딩중..</div>
+               <div>예보없음</div>
             )}
          </div>
       </div>
