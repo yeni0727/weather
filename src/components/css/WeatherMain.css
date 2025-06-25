@@ -1,0 +1,151 @@
+.main-weather-page {
+   background-color: rgba(33, 150, 243, 1);
+}
+
+.main-weather-page h1 {
+   color: white;
+   text-align: center;
+}
+
+.main-weather-page p {
+   color: white;
+   text-align: center;
+}
+
+.current-weather-card p {
+   color: #333;
+   text-align: center;
+   font-weight: bold;
+}
+
+.current-weather-card {
+   background-color: rgba(235, 235, 235, 1);
+   border-radius: 20px;
+   padding: 40px;
+   max-width: 450px;
+   margin: 30px auto;
+   text-align: center;
+   color: #333;
+}
+
+.weather-main h2 {
+   font-size: 3rem;
+   color: #666;
+   margin: 0 0 20px 0;
+   font-weight: bold;
+}
+
+.weather-main p {
+   margin: 15px 0;
+   color: #2d3436;
+}
+
+.weather-main p:first-of-type {
+   font-size: 3rem;
+   font-weight: 300;
+   color: #2d3436;
+   margin: 20px 0;
+}
+
+.weather-main p:nth-of-type(2) {
+   font-size: 1.7rem;
+   color: #666;
+}
+
+.weather-main p:last-of-type {
+   font-size: 1.7rem;
+   color: #636e72;
+   text-transform: capitalize;
+   margin: 20px 0;
+}
+
+.weather-main img {
+   width: 140px;
+   height: 140px;
+   margin: 10px 0;
+}
+
+.detail-card,
+.forecast-card {
+   background-color: rgba(235, 235, 235, 1);
+   border-radius: 20px;
+   padding: 30px;
+   max-width: 450px;
+   margin: 30px auto;
+   text-align: center;
+   color: #333;
+   position: relative;
+}
+
+.detail-card h3,
+.forecast-card h3 {
+   font-size: 2rem;
+   color: #444;
+   margin-bottom: 20px;
+}
+
+.detail-card p,
+.forecast-card p,
+.forecast-row {
+   color: #2d3436;
+   font-weight: 500;
+   margin: 10px 0;
+   text-align: center;
+}
+
+.forecast-row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px 12px;
+   background-color: rgba(217, 217, 217, 1);
+   border-radius: 10px;
+   margin-bottom: 10px;
+   font-size: 0.95rem;
+}
+
+.forecast-row span {
+   font-weight: bold;
+}
+
+.forecast-date {
+   flex-grow: 1;
+   text-align: left;
+   font-weight: 500;
+}
+
+.forecast-right {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.detail-card .card-button,
+.forecast-card .card-button {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   font-size: 0.65rem;
+   padding: 4px 8px;
+}
+
+.detail-info-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, auto);
+   gap: 15px;
+   margin-top: 20px;
+}
+
+.detail-info-box {
+   background-color: rgba(208, 246, 255, 1);
+   border-radius: 12px;
+   padding: 15px;
+   text-align: center;
+}
+
+.detail-info-box p {
+   font-weight: bold;
+   margin-bottom: 8px;
+   color: #333;
+}

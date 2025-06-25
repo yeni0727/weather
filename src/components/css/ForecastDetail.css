@@ -1,0 +1,29 @@
+.forecast-detailpage-card {
+   background-color: rgba(33, 150, 243, 1);
+   min-height: 100vh;
+   padding: 20px;
+}
+
+.forecast-detailpage-card h1 {
+   color: white;
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 2.5rem;
+   font-weight: bold;
+}
+
+.forecast-detailpage-card > .MuiButton-root {
+   margin: 0 auto 30px auto;
+   background-color: rgba(212, 211, 211, 0.6);
+   color: #333;
+   font-weight: bold;
+}
+
+.daily-forecast-card {
+   width: 100%;
+   max-width: 400px;
+   margin: 0 auto;
+   text-align: center;
+   background-color: rgba(235, 235, 235, 1);
+   border-radius: 20px;
+}
