@@ -1,3 +1,4 @@
+//메인 페이지
 import WeatherMain from '../components/WeatherMain'
 
 const MainWeather = () => {

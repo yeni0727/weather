@@ -23,11 +23,12 @@ const ForecastDetail = () => {
    if (error) return <div>에러: {error}</div>
    if (!forecast) return <div>데이터가 로딩중</div>
 
+   //정오날씨
    const dailyForecasts = forecast.list.filter((item) => item.dt_txt.includes('12:00:00')).slice(0, 5)
 
    return (
       <div className="forecast-detailpage-card">
-         <h1>5일간 예보</h1>
+         <h1>5일간 예보(정오기준)</h1>
          <Button variant="contained" onClick={() => navigate('/')} size="small">
             메인으로 돌아가기
          </Button>

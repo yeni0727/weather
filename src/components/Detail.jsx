@@ -41,7 +41,7 @@ const Detail = () => {
             <p>습도: {weather.main.humidity}%</p>
          </div>
          <div>
-            <p>풍속: {weather.wind.speed} m/s</p>
+            <p>풍속: {weather.wind.speed}m/s</p>
             <p>풍향: {weather.wind.deg}도</p>
          </div>
          <div>
