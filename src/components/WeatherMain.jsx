@@ -32,7 +32,7 @@ const WeatherMain = () => {
 
          {/* 상세 정보 카드 */}
          <div className="weather-card detail-card">
-            <h3>현재 날씨 상세 정보</h3>
+            <h3>오늘의 날씨 상세 정보</h3>
             <Button variant="contained" onClick={() => navigate('/details')} className="card-button" style={{ marginBottom: '15px' }}>
                자세히 보기
             </Button>

@@ -22,7 +22,7 @@ const Detail = () => {
 
    return (
       <div className="detailpage-card">
-         <h1>현재 날씨 상세 정보</h1>
+         <h1>오늘의 날씨 상세 정보</h1>
          <Button variant="contained" onClick={() => navigate('/')} size="small">
             메인으로 돌아가기
          </Button>
@@ -32,7 +32,7 @@ const Detail = () => {
             <img src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt="날씨 아이콘" />
             <p>온도: {weather.main.temp}°C</p>
             <p>날씨상태: {weather.weather[0].description}</p>
-            <p>체감 온도: {weather.main.feels_like}°C</p>
+            {/* <p>체감 온도: {weather.main.feels_like}°C</p> */}
          </div>
          <div>
             <p>최고온도: {weather.main.temp_max}</p>
